@@ -62,7 +62,7 @@ h1 {
 }
 
 h2 {
-    margin: @pHeadingMargin;
+    font-style: italic;
     font-weight: bold;
 }
 
@@ -85,7 +85,6 @@ li {
 /* Navigation CSS from https://codepen.io/g13nn/pen/eHGEF */
 
 body{
-    font-family: 'Noto Sans', sans-serif;
     margin:0;
     width:100%;
     height:100vh;
@@ -149,7 +148,15 @@ header{display:inline-block; font-size:12px;}
 span{padding-left:20px;}
 a{color:#000000;}
 
+#wrapper {
+    font-size: 1em;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+
 .gallery img {
+    width: 50%;
+    height: 50%;
     float: left;
     padding: 2px 2px;
 }
@@ -163,28 +170,7 @@ footer {
     text-decoration-line: none;
 }
 
-/*#references {
-    ul {
-        list-style-type: disc;
-        list-style-position: inside;
-    }
 
-    a {
-        &:link {
-            text-decoration: none;
-        }
-
-        &:visited {
-            text-decoration: none;
-        }
-
-        &:hover {
-            text-decoration: underline;
-            #tp_mixins > .color(@referencesHoverColor);
-            background-color: @referencesBgColor;
-        }
-    }
-} */
 
 #container {
     margin: 0 1em;

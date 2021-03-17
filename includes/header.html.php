@@ -1,3 +1,5 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
 <header>
     <h1>Ace in the Hole MultiSport Events</h1>
 
@@ -13,10 +15,10 @@
 
     <div class="menu">
         <ul>
-            <li><a href="#home">HOME</a></li>
-            <li><a href="#contact">CONTACT US</a></li>
-            <li><a href="#registration"><li>REGISTRATION</a></li>
-            <li><a href="#photos">PHOTO GALLERY</a></li>
+            <li><a href="index.php">HOME</a></li>
+            <li><a href="contact.php">CONTACT US</a></li>
+            <li><a href="registration.html">REGISTRATION</a></li>
+            <li><a href="gallery.php">PHOTO GALLERY</a></li>
 
         </ul>
     </div>

@@ -1,16 +1,32 @@
-
 <!DOCTYPE html>
+<!-- Ace Multisport
+file: contact.php
+Programmer:  Mary Reist
+Date 3/10/21
+-->
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Contact Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/style.less" rel="stylesheet" type="text/css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <script>https://cdnjs.cloudflare.com/ajax/libs/javascript.util/0.12.12/javascript.util.min.js</script>
+
+    <title>Ace in the Hole Multisport Events Weekend Assets</title>
 
 </head>
-
 <body>
+
     <div id="wrapper">
 
-        <?php include '../header/header.html.php'; ?>
+        <?php include 'includes/header.html.php'; ?>
 
         <h2 class="contact_email">Contact Us</h2>
 
@@ -30,6 +46,9 @@
             <p>We will get back to you as soon as possible</p>
 
     </div>
+
+    <?php include 'includes/footer.html.php'; ?>
+
 </body>
 
 </html>

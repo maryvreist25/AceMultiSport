@@ -27,7 +27,7 @@ Date 3/10/21
 
 <div id="container">
 
-    <?php include 'header/header.html.php'; ?>
+    <?php include 'includes/header.html.php'; ?>
 
     <main>
 
@@ -113,17 +113,13 @@ Date 3/10/21
         <p><strong>Do I have to use a road or racing bike?</strong> No. We welcome any type of bike as long as it is
             functioning properly with brakes and endcaps at the end of your handlebars.</p>
 
-        <footer>
-            <div id="footer">Copyright &copy; Ace in the Hole Multisport Weekend Events<br>
-                <a href="mailto:mary@reist.com">Mary@reist.com</a>
-            </div>
-        </footer>
+<?php include 'includes/footer.html.php'; ?>
 
     </main>
 
 </div>
 
-<script src="css/nav_javasc.js"></script
+<script src="../css/nav_javasc.js"></script
 
 </body>
 
